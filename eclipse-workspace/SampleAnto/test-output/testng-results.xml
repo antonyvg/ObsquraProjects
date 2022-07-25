@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="197517" started-at="2022-07-22T08:59:13Z" finished-at="2022-07-22T09:02:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="197517" started-at="2022-07-22T08:59:13Z" finished-at="2022-07-22T09:02:30Z">
+      <class name="Samples.Myntra">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Samples.Myntra@318ba8c8]" name="beforeTest" is-config="true" duration-ms="97824" started-at="2022-07-22T08:59:13Z" finished-at="2022-07-22T09:00:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:Samples.Myntra@318ba8c8]" name="f" duration-ms="64503" started-at="2022-07-22T09:00:52Z" finished-at="2022-07-22T09:01:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Samples.Myntra@318ba8c8]" name="afterTest" is-config="true" duration-ms="32847" started-at="2022-07-22T09:01:57Z" finished-at="2022-07-22T09:02:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Samples.Myntra -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

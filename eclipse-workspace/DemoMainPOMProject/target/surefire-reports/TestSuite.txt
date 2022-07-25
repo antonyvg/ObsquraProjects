@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 83.631 s <<< FAILURE! - in TestSuite
+POMProject.Script.HomePageTest.f  Time elapsed: 17.943 s  <<< FAILURE!
+java.lang.ClassCastException: com.sun.proxy.$Proxy31 cannot be cast to org.openqa.selenium.By
+	at POMProject.Script.HomePageTest.f(HomePageTest.java:27)
+

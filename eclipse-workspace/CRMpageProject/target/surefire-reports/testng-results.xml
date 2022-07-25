@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="16" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="111718" started-at="2022-05-30T05:15:49Z" finished-at="2022-05-30T05:17:41Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="48536" started-at="2022-05-30T05:15:49Z" finished-at="2022-05-30T05:16:38Z">
+      <class name="Project.Script.RegressionTestofCRM">
+        <test-method status="PASS" signature="contSel()[pri:3, instance:Project.Script.RegressionTestofCRM@5333f08f]" name="contSel" duration-ms="2272" started-at="2022-05-30T05:16:28Z" finished-at="2022-05-30T05:16:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contSel -->
+        <test-method status="PASS" signature="takeScreenShotOnFaliure(org.testng.ITestResult)[pri:0, instance:Project.Script.RegressionTestofCRM@5333f08f]" name="takeScreenShotOnFaliure" is-config="true" duration-ms="0" started-at="2022-05-30T05:16:30Z" finished-at="2022-05-30T05:16:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contSel status=SUCCESS method=RegressionTestofCRM.contSel()[pri:3, instance:Project.Script.RegressionTestofCRM@5333f08f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFaliure -->
+        <test-method status="PASS" signature="scrollPage()[pri:4, instance:Project.Script.RegressionTestofCRM@5333f08f]" name="scrollPage" duration-ms="128" started-at="2022-05-30T05:16:30Z" finished-at="2022-05-30T05:16:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollPage -->
+        <test-method status="PASS" signature="takeScreenShotOnFaliure(org.testng.ITestResult)[pri:0, instance:Project.Script.RegressionTestofCRM@5333f08f]" name="takeScreenShotOnFaliure" is-config="true" duration-ms="0" started-at="2022-05-30T05:16:30Z" finished-at="2022-05-30T05:16:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scrollPage status=SUCCESS method=RegressionTestofCRM.scrollPage()[pri:4, instance:Project.Script.RegressionTestofCRM@5333f08f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFaliure -->
+        <test-method status="PASS" signature="contactDetailsAdd1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:Project.Script.RegressionTestofCRM@5333f08f]" name="contactDetailsAdd1" duration-ms="6730" started-at="2022-05-30T05:16:30Z" data-provider="contactDetails1" finished-at="2022-05-30T05:16:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Antony]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[George]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Reliance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8281838485]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[www.antony.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactDetailsAdd1 -->
+        <test-method status="PASS" signature="takeScreenShotOnFaliure(org.testng.ITestResult)[pri:0, instance:Project.Script.RegressionTestofCRM@5333f08f]" name="takeScreenShotOnFaliure" is-config="true" duration-ms="1" started-at="2022-05-30T05:16:37Z" finished-at="2022-05-30T05:16:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contactDetailsAdd1 status=SUCCESS method=RegressionTestofCRM.contactDetailsAdd1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:Project.Script.RegressionTestofCRM@5333f08f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFaliure -->
+      </class> <!-- Project.Script.RegressionTestofCRM -->
+      <class name="Project.Script.SanityTestofCRM">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:Project.Script.SanityTestofCRM@51e8d066]" name="beforeTest" is-config="true" duration-ms="24092" started-at="2022-05-30T05:15:49Z" finished-at="2022-05-30T05:16:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="validUserValidPass(java.lang.String, java.lang.String)[pri:0, instance:Project.Script.SanityTestofCRM@51e8d066]" name="validUserValidPass" duration-ms="9731" started-at="2022-05-30T05:16:14Z" data-provider="validUserValidPass" finished-at="2022-05-30T05:16:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserValidPass -->
+        <test-method status="PASS" signature="takeScreenShotOnFaliure(org.testng.ITestResult)[pri:0, instance:Project.Script.SanityTestofCRM@51e8d066]" name="takeScreenShotOnFaliure" is-config="true" duration-ms="5" started-at="2022-05-30T05:16:23Z" finished-at="2022-05-30T05:16:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validUserValidPass status=SUCCESS method=SanityTestofCRM.validUserValidPass(java.lang.String, java.lang.String)[pri:0, instance:Project.Script.SanityTestofCRM@51e8d066] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFaliure -->
+        <test-method status="PASS" signature="homeLogin()[pri:1, instance:Project.Script.SanityTestofCRM@51e8d066]" name="homeLogin" duration-ms="944" started-at="2022-05-30T05:16:23Z" finished-at="2022-05-30T05:16:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeLogin -->
+        <test-method status="PASS" signature="takeScreenShotOnFaliure(org.testng.ITestResult)[pri:0, instance:Project.Script.SanityTestofCRM@51e8d066]" name="takeScreenShotOnFaliure" is-config="true" duration-ms="0" started-at="2022-05-30T05:16:24Z" finished-at="2022-05-30T05:16:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homeLogin status=SUCCESS method=SanityTestofCRM.homeLogin()[pri:1, instance:Project.Script.SanityTestofCRM@51e8d066] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFaliure -->
+        <test-method status="PASS" signature="contSelect()[pri:2, instance:Project.Script.SanityTestofCRM@51e8d066]" name="contSelect" duration-ms="3871" started-at="2022-05-30T05:16:24Z" finished-at="2022-05-30T05:16:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contSelect -->
+        <test-method status="PASS" signature="takeScreenShotOnFaliure(org.testng.ITestResult)[pri:0, instance:Project.Script.SanityTestofCRM@51e8d066]" name="takeScreenShotOnFaliure" is-config="true" duration-ms="0" started-at="2022-05-30T05:16:28Z" finished-at="2022-05-30T05:16:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contSelect status=SUCCESS method=SanityTestofCRM.contSelect()[pri:2, instance:Project.Script.SanityTestofCRM@51e8d066] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFaliure -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Project.Script.SanityTestofCRM@51e8d066]" name="afterTest" is-config="true" duration-ms="460" started-at="2022-05-30T05:16:37Z" finished-at="2022-05-30T05:16:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Project.Script.SanityTestofCRM -->
+    </test> <!-- Test -->
+    <test name="Test1" duration-ms="63119" started-at="2022-05-30T05:16:38Z" finished-at="2022-05-30T05:17:41Z">
+      <class name="Project.Script.RegressionTestofCRM">
+        <test-method status="PASS" signature="contSel()[pri:3, instance:Project.Script.RegressionTestofCRM@33eb0d4]" name="contSel" duration-ms="2489" started-at="2022-05-30T05:17:29Z" finished-at="2022-05-30T05:17:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contSel -->
+        <test-method status="PASS" signature="scrollPage()[pri:4, instance:Project.Script.RegressionTestofCRM@33eb0d4]" name="scrollPage" duration-ms="123" started-at="2022-05-30T05:17:31Z" finished-at="2022-05-30T05:17:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollPage -->
+        <test-method status="PASS" signature="takeScreenShotOnFaliure(org.testng.ITestResult)[pri:0, instance:Project.Script.RegressionTestofCRM@33eb0d4]" name="takeScreenShotOnFaliure" is-config="true" duration-ms="0" started-at="2022-05-30T05:17:31Z" finished-at="2022-05-30T05:17:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contSel status=SUCCESS method=RegressionTestofCRM.contSel()[pri:3, instance:Project.Script.RegressionTestofCRM@33eb0d4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFaliure -->
+        <test-method status="PASS" signature="takeScreenShotOnFaliure(org.testng.ITestResult)[pri:0, instance:Project.Script.RegressionTestofCRM@33eb0d4]" name="takeScreenShotOnFaliure" is-config="true" duration-ms="0" started-at="2022-05-30T05:17:32Z" finished-at="2022-05-30T05:17:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scrollPage status=SUCCESS method=RegressionTestofCRM.scrollPage()[pri:4, instance:Project.Script.RegressionTestofCRM@33eb0d4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFaliure -->
+        <test-method status="PASS" signature="contactDetailsAdd1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:Project.Script.RegressionTestofCRM@33eb0d4]" name="contactDetailsAdd1" duration-ms="8351" started-at="2022-05-30T05:17:32Z" data-provider="contactDetails1" finished-at="2022-05-30T05:17:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Antony]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[George]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Reliance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8281838485]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[www.antony.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactDetailsAdd1 -->
+        <test-method status="PASS" signature="takeScreenShotOnFaliure(org.testng.ITestResult)[pri:0, instance:Project.Script.RegressionTestofCRM@33eb0d4]" name="takeScreenShotOnFaliure" is-config="true" duration-ms="0" started-at="2022-05-30T05:17:40Z" finished-at="2022-05-30T05:17:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contactDetailsAdd1 status=SUCCESS method=RegressionTestofCRM.contactDetailsAdd1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:Project.Script.RegressionTestofCRM@33eb0d4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFaliure -->
+      </class> <!-- Project.Script.RegressionTestofCRM -->
+      <class name="Project.Script.SanityTestofCRM">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:Project.Script.SanityTestofCRM@3e53c4ad]" name="beforeTest" is-config="true" duration-ms="32974" started-at="2022-05-30T05:16:38Z" finished-at="2022-05-30T05:17:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="validUserValidPass(java.lang.String, java.lang.String)[pri:0, instance:Project.Script.SanityTestofCRM@3e53c4ad]" name="validUserValidPass" duration-ms="9694" started-at="2022-05-30T05:17:11Z" data-provider="validUserValidPass" finished-at="2022-05-30T05:17:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserValidPass -->
+        <test-method status="PASS" signature="takeScreenShotOnFaliure(org.testng.ITestResult)[pri:0, instance:Project.Script.SanityTestofCRM@3e53c4ad]" name="takeScreenShotOnFaliure" is-config="true" duration-ms="1" started-at="2022-05-30T05:17:20Z" finished-at="2022-05-30T05:17:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validUserValidPass status=SUCCESS method=SanityTestofCRM.validUserValidPass(java.lang.String, java.lang.String)[pri:0, instance:Project.Script.SanityTestofCRM@3e53c4ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFaliure -->
+        <test-method status="PASS" signature="homeLogin()[pri:1, instance:Project.Script.SanityTestofCRM@3e53c4ad]" name="homeLogin" duration-ms="4502" started-at="2022-05-30T05:17:20Z" finished-at="2022-05-30T05:17:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeLogin -->
+        <test-method status="PASS" signature="takeScreenShotOnFaliure(org.testng.ITestResult)[pri:0, instance:Project.Script.SanityTestofCRM@3e53c4ad]" name="takeScreenShotOnFaliure" is-config="true" duration-ms="0" started-at="2022-05-30T05:17:25Z" finished-at="2022-05-30T05:17:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homeLogin status=SUCCESS method=SanityTestofCRM.homeLogin()[pri:1, instance:Project.Script.SanityTestofCRM@3e53c4ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFaliure -->
+        <test-method status="PASS" signature="contSelect()[pri:2, instance:Project.Script.SanityTestofCRM@3e53c4ad]" name="contSelect" duration-ms="3960" started-at="2022-05-30T05:17:25Z" finished-at="2022-05-30T05:17:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contSelect -->
+        <test-method status="PASS" signature="takeScreenShotOnFaliure(org.testng.ITestResult)[pri:0, instance:Project.Script.SanityTestofCRM@3e53c4ad]" name="takeScreenShotOnFaliure" is-config="true" duration-ms="1" started-at="2022-05-30T05:17:29Z" finished-at="2022-05-30T05:17:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contSelect status=SUCCESS method=SanityTestofCRM.contSelect()[pri:2, instance:Project.Script.SanityTestofCRM@3e53c4ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFaliure -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Project.Script.SanityTestofCRM@3e53c4ad]" name="afterTest" is-config="true" duration-ms="968" started-at="2022-05-30T05:17:40Z" finished-at="2022-05-30T05:17:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Project.Script.SanityTestofCRM -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

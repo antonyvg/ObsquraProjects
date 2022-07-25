@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Project.Script.RegressionTestofCRM">
+        <methods>
+          <include name="takeScreenShotOnFaliure"/>
+          <include name="beforeTest"/>
+          <include name="contactDetailsAdd1"/>
+          <include name="contSel"/>
+          <include name="afterTest"/>
+          <include name="scrollPage"/>
+        </methods>
+      </class> <!-- Project.Script.RegressionTestofCRM -->
+      <class name="Project.Script.SanityTestofCRM">
+        <methods>
+          <include name="takeScreenShotOnFaliure"/>
+          <include name="contSelect"/>
+          <include name="homeLogin"/>
+          <include name="validUserValidPass"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- Project.Script.SanityTestofCRM -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
